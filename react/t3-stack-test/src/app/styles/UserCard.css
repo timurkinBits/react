@@ -1,47 +1,25 @@
 .user-card {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
-    background: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin: 0 auto 20px;
-  }
-  
-  .verified {
-    color: #4caf50;
-    font-size: 16px;
-    margin-left: 5px;
-  }
-  
-  .skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 20px;
-  }
-  
-  .skill {
-    background: #e0f7fa;
-    color: #00796b;
-    padding: 10px 15px;
-    border-radius: 15px;
-    font-size: 14px;
-  }
-  
-  .joined {
-    font-size: 14px;
-    color: #999;
-    margin-top: 20px;
-  }
-  
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: inherit;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.verified {
+  color: #4caf50;
+  font-size: 18px;
+}
+
+.joined {
+  margin-top: 15px;
+  font-style: italic;
+}

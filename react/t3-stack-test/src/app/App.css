@@ -1,0 +1,88 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .light {
+    background-color: #f4f4f4;
+    color: #000;
+  }
+  
+  .dark {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .theme-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #00796b;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-button:hover {
+    background-color: #004d40;
+  }
+  
+  .card-container {
+    width: 80%;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .light .card-container {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .dark .card-container {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  h2, p, h3 {
+    margin: 10px 0;
+    color: inherit;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skill {
+    background-color: #00796b;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .light .skill {
+    background-color: #00796b;
+  }
+  
+  .dark .skill {
+    background-color: #004d40;
+  }
+  
+  .country-flag {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
